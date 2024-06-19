@@ -1,6 +1,13 @@
 {
   "users": [
-    
-      
+    {
+      "id": "150c",
+      "victim_name": "halima abdi",
+      "incident_date": "2024-06-20",
+      "location": "madina",
+      "description": "ABUSED BY HER HUSBAND FOR A MONTH",
+      "contact_info": "0712345678978",
+      "type_of_violence": "psychological"
+    }
   ]
 }

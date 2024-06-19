@@ -16,6 +16,14 @@ nav .navbar-nav .nav-link:hover {
   margin-right: 40px; 
  
 }
+img{
+  width: 100%;
+    background-size: cover;
+  height: 100vh;
+  background-position: center;
+  overflow: hidden;
+  }
+  
 
 
 
@@ -175,13 +183,6 @@ hr {
   color: #bbb;
   font-size: 14px;
 }
-img{
-  width: 100%;
-  background-size: cover;
-  height: 100vh;
-  background-position: center;
-  overflow: hidden;
-}
 
 body {
   font-family: Arial, sans-serif;
@@ -190,119 +191,10 @@ body {
   margin: 20px auto;
   padding: 0 20px;
 }
-h1 {
-  color: #333;
-}
-p {
-  margin-bottom: 20px;
-}
-.resources {
-  margin-top: 30px;
-  padding: 10px;
-  background-color: #f0f0f0;
-  border-radius: 5px;
-}
-.resources h3 {
-  margin-top: 0;
-}
-.resource-item {
-  margin-bottom: 10px;
-}
-img{
-width: 100%;
-  background-size: cover;
-height: 100vh;
-background-position: center;
-overflow: hidden;
-}
-body {
-  font-family: Arial, sans-serif;
-  line-height: 1.6;
-  max-width: 800px;
-  margin: 20px auto;
-  padding: 0 20px;
-}
-h1 {
-  color: blue;
-}
-p {
-  margin-bottom: 20px;
-}
-.resources {
-  margin-top: 30px;
-  padding: 10px;
-  background-color: #f0f0f0;
-  border-radius: 5px;
-}
-.resources h3 {
-  margin-top: 0;
-}
-.resource-item {
-  margin-bottom: 10px;
-}
-img{
-width: 100%;
-  background-size: cover;
-height: 100vh;
-background-position: center;
-overflow: hidden;
-}
-
-
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    background-color: #f0f0f0;
-    padding: 20px;
-}
-.container {
-    max-width: 600px;
-    margin: 0 auto;
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-}
 
 
 
-form {
-    margin-top: 20px;
-}
-label {
-    font-weight: bold;
-    display: block;
-    margin-top: 10px;
-}
-input[type="text"],
-input[type="date"],
-textarea {
-    width: calc(100% - 20px);
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    font-size: 16px;
-}
-button[type="submit"] {
-    background-color: #007bff;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 16px;
-}
-button[type="submit"]:hover {
-    background-color: #0056b3;
-}
-body{
-  background-color:green ;
-}
-h2{
-  color: red;
-}
+
 
 
 
