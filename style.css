@@ -101,6 +101,15 @@ hr {
   margin: 20px;
 }
 
+
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 0 20px;
+}
 .footer {
   background: red; 
   color: #fff;
@@ -183,15 +192,6 @@ hr {
   color: #bbb;
   font-size: 14px;
 }
-
-body {
-  font-family: Arial, sans-serif;
-  line-height: 1.6;
-  max-width: 800px;
-  margin: 20px auto;
-  padding: 0 20px;
-}
-
 
 
 

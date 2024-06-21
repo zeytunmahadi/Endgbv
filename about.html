@@ -46,6 +46,89 @@ body {
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
+.footer {
+  background: red; 
+  color: #fff;
+  padding: 30px 0;
+}
+
+.footer .footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer .footer-section {
+  flex: 1;
+  margin: 20px;
+}
+
+.footer .links h2,
+.footer .contact h2,
+.footer .social h2 {
+  margin-bottom: 20px;
+}
+
+.footer .links ul,
+.footer .contact ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer .links ul li,
+.footer .contact ul li {
+  margin-bottom: 10px;
+}
+
+.footer .links ul li a,
+.footer .contact ul li i {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer .links ul li a:hover,
+.footer .contact ul li i:hover {
+  color: lightgreen;
+}
+
+.footer .contact ul li {
+  display: flex;
+  align-items: center;
+}
+
+.footer .contact ul li i {
+  margin-right: 10px;
+}
+
+.footer .social .social-icons {
+  display: flex;
+  justify-content: space-between;
+  max-width: 200px;
+}
+
+.footer .social .social-icons a {
+  color: #fff;
+  font-size: 20px;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer .social .social-icons a:hover {
+  color: lightgreen;
+}
+
+.footer .footer-bottom {
+  text-align: center;
+  padding: 10px;
+  background: #00173a;
+  color: #bbb;
+  font-size: 14px;
+}
+
 
 </style>
    
@@ -115,5 +198,48 @@ body {
     </div>
 
     <p>By understanding the effects of GBV and offering meaningful support, we can contribute to creating a more compassionate and supportive society for survivors.</p>
+    <section>
+        <footer class="footer">
+            <div class="footer-content">
+              
+                <div class="footer-section links">
+                    <h2>Quick Links</h2>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="report.html">Report</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                       
+                    </ul>
+                </div>
+                
+              
+                <div class="footer-section contact">
+                    <h2>Contact Us</h2>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i> Garissa, Kenya</li>
+                        <li><i class="fas fa-phone"></i> +254 745 814 062</li>
+                       
+                    </ul>
+                </div>
+                
+               
+                <div class="footer-section social">
+                    <h2>Follow Us</h2>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/seytoonsafi" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook"></i></a>
+                        <a href="https://t.me/zeytunsafi" target="_blank" rel="noopener noreferrer"><i class="fab fa-telegram"></i></a>
+                        <a href="https://www.tiktok.com/@safi" target="_blank" rel="noopener noreferrer"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+           
+            <div class="footer-bottom">
+                <p>&copy; 2024 SkillCamp. All rights reserved.</p>
+                <p>Designed by zeytun mahadi</p>
+            </div>
+        </footer>
 </body>
+
 </html>
